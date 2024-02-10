@@ -21,13 +21,13 @@ export default function NavBar() {
                 </Link>
             }
             {
-                pathname == '/signup' ?
-                    <Link href={'/signin'} className="bg-green-700 hover:bg-green-800 text-white py-1 px-2 rounded">
-                        Sign in
-                    </Link>
-                :
+                pathname == '/signin' ?
                     <Link href={'/signup'} className="bg-green-700 hover:bg-green-800 text-white py-1 px-2 rounded">
                         Sign up
+                    </Link>
+                :
+                    <Link href={'/signin'} className="bg-green-700 hover:bg-green-800 text-white py-1 px-2 rounded">
+                        Sign in
                     </Link>
             }
         </div>
