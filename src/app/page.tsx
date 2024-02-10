@@ -20,7 +20,7 @@ export default function Home() {
               Sign up now <FaArrowRightLong  className=""/>
             </div>
           </Link>
-          <Link href={'/signup'} className="flex flex-col gap-2 p-3 rounded border-gray-700 border-2 hover:border-green-800">
+          <Link href={'/join'} className="flex flex-col gap-2 p-3 rounded border-gray-700 border-2 hover:border-green-800">
             <div className="text-sm">
               Active Quiz ?
             </div>
